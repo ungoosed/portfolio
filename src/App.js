@@ -14,7 +14,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="q4c.netlify.app"
+          href="https://q4c.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
         >
