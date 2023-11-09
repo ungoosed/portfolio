@@ -8,6 +8,14 @@ body {
 }
 .Nav {
   position:absolute;
+  color:red;
+  background-color: rgb(102, 165, 168);
+}
+.Page {
+  position:absolute;
+  color:red;
+  background-color: rgb(212, 254, 255);
+  border-top-right-radius: 25px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

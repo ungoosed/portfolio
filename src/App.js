@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './Nav'
+import Nav from './Nav';
+import Projects from './pages/Projects';
 function App() {
   return (
     <div className="App">
@@ -13,13 +14,14 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="q4c.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
       </header>
+      <Projects></Projects>
     </div>
   );
 }
