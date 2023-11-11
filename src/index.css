@@ -7,15 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .Nav {
-  position:absolute;
+  position:fixed;
+  top: 0px;
+  width:100%;
   color:red;
   background-color: rgb(102, 165, 168);
+  z-index: 10;
 }
 .Page {
-  position:absolute;
+  position:relative;
   color:red;
+  left:25%;
   background-color: rgb(212, 254, 255);
-  border-top-right-radius: 25px;
+  border-radius: 15px;
+  text-align:left;
+  width:25%;
+  font-size: medium;
+  
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

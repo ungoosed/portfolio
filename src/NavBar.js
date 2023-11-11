@@ -1,5 +1,5 @@
 
-function Nav() {
+function NavBar() {
     return (
       <div className="Nav">
         <p>
@@ -9,4 +9,4 @@ function Nav() {
     );
   }
   
-  export default Nav;
+  export default NavBar;
