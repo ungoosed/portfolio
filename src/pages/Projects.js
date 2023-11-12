@@ -2,7 +2,7 @@
 function Projects() {
     return (
         <div className="Page">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <ul>
                 <li>
                     <a href="http://localhost:5000">port 5000</a>
