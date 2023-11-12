@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import Nav from './NavBar';
+import Nav from './components/NavBar';
 import Projects from './pages/Projects';
 
 function App() {
