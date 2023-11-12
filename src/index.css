@@ -5,26 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:darkslateblue;
 }
+
 .Nav {
-  position:fixed;
-  top: 0px;
-  width:100%;
-  color:red;
-  background-color: rgb(102, 165, 168);
+  margin-left: 1%;
+  margin-right: 1%;
+
+  border-radius: 10px;
+  position: sticky;
+  top:1.5%;
+  width: 100%;
+  background-color: slateblue;
   z-index: 10;
+
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+
+  padding: 1%;
+
+
+  .Dropdown {
+    font-weight: inherit;
+    display: inline-block;
+    border: none;
+    font-size: inherit;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+    background-color: slateblue;
+
+  }
+
 }
+
 .Page {
-  position:relative;
-  color:red;
-  left:25%;
+  position: relative;
+  color: red;
+  left: 25%;
   background-color: rgb(212, 254, 255);
   border-radius: 15px;
-  text-align:left;
-  width:25%;
+  text-align: left;
+  width: 25%;
   font-size: medium;
-  
+
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
