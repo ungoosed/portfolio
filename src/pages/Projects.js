@@ -1,8 +1,9 @@
-
+import Card from "../components/Card";
 function Projects() {
     return (
         <div className="Page">
             <h1>Projects</h1>
+            <Card text={<h1>hi</h1>}></Card>
             <ul>
                 <li>
                     <a href="http://localhost:5000">port 5000</a>
