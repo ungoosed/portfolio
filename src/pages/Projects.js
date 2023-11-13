@@ -3,8 +3,19 @@ function Projects() {
     return (
         <div className="Page">
             <h1>Projects</h1>
-            <Card text={<h1>hi</h1>}></Card>
-            <ul>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+
+
+            <><ul>
                 <li>
                     <a href="http://localhost:5000">port 5000</a>
                 </li>
@@ -20,8 +31,8 @@ function Projects() {
                     <a href="https://q4c.netlify.app">The Quest for Conception</a>
 
                 </li>
-            </ul>
-        </div>
+            </ul></>
+        </div >
     );
 }
 

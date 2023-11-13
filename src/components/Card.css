@@ -1,0 +1,19 @@
+.Card {
+    color: 'white';
+    position: relative;
+    width:30%;
+    border-radius: 10px;
+    margin:auto;
+    background: slateblue;
+    height:15vh;
+    box-sizing: border-box;
+    padding-left: 1%;
+
+
+    h2 {
+        text-align: center;
+    }
+}
+.Card:hover {
+    border: 5px;
+}

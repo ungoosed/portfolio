@@ -1,12 +1,9 @@
+import './Card.css'
+function Card({ text, style }) {
 
-function Card({ text, backgroundColor }) {
     return (
-        <div className="Card" style={
-            {
-                backgroundColor: {backgroundColor},
-                color: 'white'
-            }
-        }>
+
+        <div className="Card">
             {text}
         </div>
     );

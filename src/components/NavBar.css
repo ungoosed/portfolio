@@ -1,0 +1,31 @@
+.Nav {
+    margin: auto;
+    padding: 1%;
+    
+    border-radius: 10px;
+    position: sticky;
+    top: 1.5%;
+    width: 50%;
+    background-color: slateblue;
+    z-index: 10;
+  
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+  
+  
+  
+    .Dropdown {
+      font-weight: inherit;
+      display: inline-block;
+      border: none;
+      font-size: inherit;
+      margin-left: 1%;
+      margin-right: 1%;
+      color: white;
+      background-color: slateblue;
+  
+  
+    }
+  
+  }
