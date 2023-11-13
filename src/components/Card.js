@@ -1,9 +1,9 @@
 import './Card.css'
-function Card({ text, style }) {
+function Card({text, style}) {
 
     return (
 
-        <div className="Card">
+        <div className="Card" style={style}>
             {text}
         </div>
     );

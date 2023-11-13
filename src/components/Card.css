@@ -1,19 +1,31 @@
 .Card {
     color: 'white';
     position: relative;
+    min-width: 150px;
+    max-width: 80%;
     width:30%;
+    min-height: 100px;
+    max-height: 80%;
+    height:7vw;
     border-radius: 10px;
-    margin:auto;
+    margin: auto;
     background: teal;
-    height:15vh;
     box-sizing: border-box;
     padding-left: 1%;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
 
     h2 {
         text-align: center;
     }
 }
+
 .Card:hover {
-    border: 5px;
+    /* filter: brightness(70%); */
+    filter: brightness(80%);
+
+
+
+
 }
