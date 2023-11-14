@@ -28,20 +28,3 @@ a:hover {
   color: #cc97fd;
 }
 
-
-  h1 {
-    text-align: center;
-  }
-.Page {
-  min-height: 85vh;
-  text-align: center;
-  margin:auto;
-  width: 50vw;
-  position: relative;
-  color: white;
-  background-color:cadetblue;
-  border-radius: 15px;
-  text-align: left;
-  font-size: medium;
-
-}

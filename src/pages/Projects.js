@@ -1,21 +1,21 @@
+import './Page.css';
 import Card from "../components/Card";
-const elfin = require('../assets/reindeer-elfin.jpg')
-const frosty = require('../assets/reindeer-frosty.jpg')
-
+const elfin = require('../assets/reindeer-elfin.jpg');
+const frosty = require('../assets/reindeer-frosty.jpg');
 function Projects() {
     return (
         <div className="Page">
             <h1>Projects</h1>
             <Card style={{ backgroundImage: `url(${elfin})`}} text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
             <Card style={{ backgroundImage: `url(${frosty})`}} text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
-            <Card text={<><h2>reindeer</h2><br></br><h3>A boofer</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
+            <Card text={<><h2>reindeer</h2><br></br><h3>A </h3></>}></Card>
 
 
             <><ul>

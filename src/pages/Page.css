@@ -1,0 +1,22 @@
+h1 {
+  width: 100%;
+  text-align: center;
+}
+.Page { 
+
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    min-height: 85vh;
+    text-align: center;
+    margin:auto;
+    width: 50vw;
+    position: relative;
+    color: white;
+    background-color:cadetblue;
+    border-radius: 15px;
+    text-align: left;
+    font-size: medium;
+  
+  }

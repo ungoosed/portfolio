@@ -1,21 +1,21 @@
 import './NavBar.css'
 function NavBar() {
   return (
-    <div className="Nav">
+    <div className="NavBar">
       <button className="Dropdown">
-        <a href="#1">Home</a>
+        <a href="./">Home</a>
       </button>
       <button className="Dropdown">
-        <a href="#1">Achievements</a>
+        <a href="./achievements">Achievements</a>
       </button>
       <button className="Dropdown">
-        <a href="#1">Projects</a>
+        <a href="./projects">Projects</a>
       </button>
       <button className="Dropdown">
-        <a href="#1">Contact</a>
+        <a href="./contact">Contact</a>
       </button>
       <button className="Dropdown">
-        <a href="#1">Hi</a>
+        <a href="./404error">Hi</a>
       </button>
 
     </div>

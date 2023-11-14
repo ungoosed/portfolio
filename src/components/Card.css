@@ -1,5 +1,6 @@
 .Card {
     color: 'white';
+    font-size: small;
     position: relative;
     min-width: 150px;
     max-width: 80%;
@@ -8,24 +9,17 @@
     max-height: 80%;
     height:7vw;
     border-radius: 10px;
-    margin: auto;
     background: teal;
-    box-sizing: border-box;
     padding-left: 1%;
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 15px;
-
+    margin:1vw;
     h2 {
         text-align: center;
     }
 }
 
 .Card:hover {
-    /* filter: brightness(70%); */
-    filter: brightness(80%);
-
-
-
-
+    cursor: pointer;
+    filter: brightness(75%);
 }
