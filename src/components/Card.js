@@ -1,11 +1,11 @@
 import './Card.css'
-function Card({text, style}) {
+function Card({title, style}) {
 
     return (
 
         <div className="Card" style={style}>
             
-            <h3>{text}</h3>
+            <h3>{title}</h3>
         </div>
     );
 }

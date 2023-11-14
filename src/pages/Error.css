@@ -1,0 +1,9 @@
+#Error {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    width: 100%;
+}
