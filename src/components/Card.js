@@ -1,14 +1,31 @@
+import React from 'react';
 import './Card.css'
+
 import { useState } from 'react';
-function Card({title, style}) {
-    const[open, setOpen] = useState(false);
+function Card({ title, style }) {
+    const [isOpen, setOpen] = useState(false);
     function handleClick() {
-        setOpen(true)
+        setOpen(!isOpen)
     }
     return (
-        <div className="Card" style={style} onClick={handleClick}>
-        <h3>{title}</h3>
-    </div>
+        <React.Fragment>
+            {
+                !isOpen && (
+                    <div className='ClosedCard' style={style} onClick={handleClick}>
+                        {title}
+                    </div>
+                )
+            }
+            {
+                isOpen && (
+                    <div className='OpenedCard'>
+
+                    </div>
+                )
+            }
+
+
+        </React.Fragment>
     )
 }
 

@@ -1,4 +1,4 @@
-.Card {
+.ClosedCard {
     color: 'white';
     font-size: small;
     position: relative;
@@ -14,13 +14,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin:1vw;
-    /*h2 styling*/
-    h3 {
-        text-align: center;
-    }
+
 }
 
-.Card:hover {
+.ClosedCard:hover {
     cursor: pointer;
-    filter: brightness(75%);
+    filter: brightness(2px);
 }
