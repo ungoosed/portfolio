@@ -16,25 +16,6 @@ function Projects() {
             <Card title={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
             <Card title={<><h2>reindeer</h2><br></br><h3>ee</h3></>}></Card>
             <Card title={<><h2>reindeer</h2><br></br><h3>A </h3></>}></Card>
-
-
-            {/* <ul>
-                <li>
-                    <a href="http://localhost:5000">port 5000</a>
-                </li>
-                <li>
-                    <a href="https://localhost:8080">port 8080</a>
-
-                </li>
-                <li>
-                    <a href="https://localhost:3000">port 3000</a>
-
-                </li>
-                <li>
-                    <a href="https://q4c.netlify.app">The Quest for Conception</a>
-
-                </li>
-            </ul> */}
         </div >
     );
 }
