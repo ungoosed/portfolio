@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css'
-
 import { useState } from 'react';
 function Card({ title, style }) {
     const [isOpen, setOpen] = useState(false);
@@ -18,7 +17,9 @@ function Card({ title, style }) {
             }
             {
                 isOpen && (
-                    <div className='OpenedCard'>
+                    <div className='OpenedCard' >
+                        <button onClick={handleClick}>esc</button>
+                        {title}
 
                     </div>
                 )
