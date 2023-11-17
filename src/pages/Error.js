@@ -10,9 +10,8 @@ export default function ErrorPage() {
     <NavBar></NavBar>
     <div id="Error">
       <h1>Oops! you did something bad lolol 404 error</h1>
-      <p>you absolute monkey</p>
       <p>
-        <i>{error.statusText || error.message}</i>
+        <code><i>{error.statusText || error.message}</i></code>
       </p>
     </div></>
 

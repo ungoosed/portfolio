@@ -4,52 +4,66 @@
     position: relative;
     min-width: 200px;
     max-width: 80%;
-    width:30%;
+    width: 30%;
     min-height: 100px;
     max-height: 80%;
-    height:7vw;
+    height: 7vw;
     border-radius: 10px;
     background: teal;
     padding-left: 1%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:1vw;
-
+    margin: 1vw;
 }
 
 .ClosedCard:hover {
-    cursor: pointer;
-    filter: brightness(2px);
+    cursor: pointer;    
+    filter: brightness(70%);
+    width:31%;
 }
-@keyframes openAnim {
-    from {}
-}
+
+
 .OpenedCard {
+    display:flex;
+    flex-direction: row;
     height: 73vh;
     z-index: 11;
     color: 'white';
     font-size: small;
     position: relative;
-    width:96%;
+    width: 96%;
     border-radius: 10px;
     background: teal;
     padding-left: 1%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:1vw;
-    
+    margin: 1vw;
 
 }
+
 .HiddenCard {
     display: none;
 }
+
 .CloseButton {
-    background-color:brown;
+    color:white;
+    background-color: brown;
     display: block;
-    border:none;
+    border: none;
     border-radius: 10px;
-    width:1.5vw;
-    height:1.5vw;
-    margin-top: 1vh;
+    height: 3vh;
     cursor: pointer;
+    margin: 1vw;
+
+}
+.CloseButton:hover {
+    color:lightgray;
+    background-color: red;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    height: 3vh;
+    cursor: pointer;
+    margin: 1vw;
+
 }

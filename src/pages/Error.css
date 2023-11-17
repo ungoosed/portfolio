@@ -3,7 +3,9 @@
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: large;
 }
 h1 {
     width: 100%;
+
 }

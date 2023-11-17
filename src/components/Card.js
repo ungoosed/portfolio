@@ -30,9 +30,8 @@ function Card({ title, style }) {
             {
                 isOpen && (
                     <div className='OpenedCard' style={style} >
-                        <button className="CloseButton" onClick={closeCard}></button>
-                        {title}
-
+                        <h1>{title}</h1>
+                        <button className="CloseButton" onClick={closeCard}>close</button>
                     </div>
                 )
             }
