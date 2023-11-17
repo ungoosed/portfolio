@@ -14,16 +14,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 1vw;
+    transition: width 0.1s, height 0.1s;
+
 }
 
 .ClosedCard:hover {
     cursor: pointer;    
     filter: brightness(70%);
     width:31%;
+    transition: width 0.1, height 0.1s;
+
 }
 
 
 .OpenedCard {
+    transition: width 0.1, height 0.1s;
+
     display:flex;
     flex-direction: row;
     height: 73vh;
