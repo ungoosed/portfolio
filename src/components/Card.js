@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Card.css'
 import { useState } from 'react';
 function Card({ title, style }) {
     const [isOpen, setOpen] = useState(false);
+    const isDisplayed = useContext();
     function handleClick() {
         setOpen(!isOpen)
     }
