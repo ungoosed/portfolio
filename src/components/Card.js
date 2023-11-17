@@ -1,25 +1,36 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import './Card.css'
-import { useState } from 'react';
+import { displayContext } from '../pages/Projects';
 function Card({ title, style }) {
+    const {isDisplayed, setDisplayed} = useContext(displayContext);
     const [isOpen, setOpen] = useState(false);
-    const isDisplayed = useContext();
-    function handleClick() {
-        setOpen(!isOpen)
+    function openCard() {
+        setOpen(true)
+        setDisplayed(false)
+    }
+    function closeCard() {
+        setOpen(false)
+        setDisplayed(true)
     }
     return (
         <React.Fragment>
+                        {
+                isDisplayed && (
+                    <div className='HiddenCard'>
+                    </div>
+                )
+            }
             {
-                !isOpen && (
-                    <div className='ClosedCard' style={style} onClick={handleClick}>
-                        {title}
+                !isOpen && isDisplayed && (
+                    <div className='ClosedCard' style={style} onClick={openCard}>
+                        <h2>{title}</h2>
                     </div>
                 )
             }
             {
                 isOpen && (
-                    <div className='OpenedCard' >
-                        <button onClick={handleClick}>esc</button>
+                    <div className='OpenedCard' style={style} >
+                        <button className="CloseButton" onClick={closeCard}></button>
                         {title}
 
                     </div>

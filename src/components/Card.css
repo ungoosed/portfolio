@@ -21,12 +21,15 @@
     cursor: pointer;
     filter: brightness(2px);
 }
+@keyframes openAnim {
+    from {}
+}
 .OpenedCard {
+    height: 73vh;
     z-index: 11;
     color: 'white';
     font-size: small;
-    position: absolute;
-    top: 10vw;
+    position: relative;
     width:96%;
     border-radius: 10px;
     background: teal;
@@ -34,5 +37,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin:1vw;
+    
 
+}
+.HiddenCard {
+    display: none;
+}
+.CloseButton {
+    background-color:brown;
+    display: block;
+    border:none;
+    border-radius: 10px;
+    width:1.5vw;
+    height:1.5vw;
+    margin-top: 1vh;
+    cursor: pointer;
 }
