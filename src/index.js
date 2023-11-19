@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Error from './pages/Error'
+import Projects from './pages/Projects';
+import Achievements from './pages/Achievements';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,12 +15,18 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <Error />,
-    children: [
-      {
-        path: "projects",
-        element: <App />,
-      },
-    ],
+  },
+  {
+    path: "projects",
+    element: <App page={<Projects/>} />,
+    errorElement: <Error />,
+
+  },
+  {
+    path: "achievements",
+    element: <App page={<Achievements/>} />,
+    errorElement: <Error />,
+
   },
 
 ]);

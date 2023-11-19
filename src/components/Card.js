@@ -1,6 +1,10 @@
 import React, { useContext, useState } from 'react';
 import './Card.css'
-import { displayContext } from '../pages/Projects';
+import {displayContext} from '../pages/Projects';
+// const parentComponent = await import('../pages/Projects');
+// const {displayContext} = parentComponent.displayContext;
+// console.log(displayContext)
+// const displayContext = parent.displayContext;
 function Card({ title, style }) {
     const {isDisplayed, setDisplayed} = useContext(displayContext);
     const [isOpen, setOpen] = useState(false);

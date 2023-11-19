@@ -1,6 +1,6 @@
 import './Page.css';
 import Card from "../components/Card";
-import { useState, createContext, useContext } from 'react';
+import { useState, createContext } from 'react';
 
 const elfin = require('../assets/reindeer-elfin.jpg');
 const frosty = require('../assets/reindeer-frosty.jpg');
@@ -18,7 +18,6 @@ function Projects() {
                 <h1>Projects</h1>
                 <Card style={{ backgroundImage: `url(${elfin})` }} title='Elfin Lakes Reindeer Adventure'></Card>
                 <Card style={{ backgroundImage: `url(${doxicon})` }} title='Doxicon'></Card>
-
                 <Card style={{ backgroundImage: `url(${frosty})` }} title={'Frosty Mountain Journey'}></Card>
                 <Card style={{ backgroundImage: `url(${pumpkin})` }} title={'Reindeer Carves A Nice Pumpkin'}></Card>
 

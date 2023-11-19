@@ -1,22 +1,19 @@
 // import logo from './logo.svg';
 import Nav from './components/NavBar';
-import Projects from './pages/Projects';
-
-function App() {
+function Root({page}) {
   return (
-    <div className="App">
+    <div className="Root">
       <Nav></Nav>
-      <Projects></Projects>
-
+      {page}
       <footer className="Footer">
         <p>
           Copyright © 2023 E-man Enterprises
         </p>
 
-      
+
       </footer>
     </div>
   );
 }
 
-export default App;
+export default Root;
