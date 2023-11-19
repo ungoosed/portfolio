@@ -1,12 +1,11 @@
 import React, { useContext, useState } from 'react';
 import './Card.css'
-import {displayContext} from '../pages/Projects';
-// const parentComponent = await import('../pages/Projects');
-// const {displayContext} = parentComponent.displayContext;
-// console.log(displayContext)
-// const displayContext = parent.displayContext;
-function Card({ title, style }) {
-    const {isDisplayed, setDisplayed} = useContext(displayContext);
+
+
+function Card({ title, style, page }) {
+    const parentComponent = require('../pages/' + page);
+
+    const { isDisplayed, setDisplayed } = useContext(parentComponent.displayContext);
     const [isOpen, setOpen] = useState(false);
     function openCard() {
         setOpen(true)
@@ -18,7 +17,7 @@ function Card({ title, style }) {
     }
     return (
         <React.Fragment>
-                        {
+            {
                 isDisplayed && (
                     <div className='HiddenCard'>
                     </div>
