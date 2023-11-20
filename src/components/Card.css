@@ -52,25 +52,29 @@
 }
 
 .CloseButton {
-    color:white;
-    background-color: brown;
-    display: block;
-    border: none;
-    border-radius: 10px;
-    height: 3vh;
-    cursor: pointer;
-    margin: 1vw;
-
+  margin: 1vw;
+  width:1.5vw;
+  height:1.5vw;
+  padding: 0.5vw;
+  border-width:3px;
+  border-style: solid;
+  border-color:cadetblue;
+  border-radius:10px;
+  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
+  background-color: cadetblue;
 }
 .CloseButton:hover {
-    color:lightgray;
-    background-color: red;
-    display: block;
-    border: none;
-    border-radius: 10px;
-    height: 3vh;
+    filter:brightness(70%);
     cursor: pointer;
     margin: 1vw;
+    width:1.5vw;
+    height:1.5vw;
+    border-width:3px;
+    border-style: solid;
+    border-color:cadetblue;
+    border-radius:10px;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
+    background-color: cadetblue;
 
 }
 /* .CloseButton::before {

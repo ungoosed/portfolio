@@ -34,7 +34,7 @@ function Card({ title, style, page }) {
                 isOpen && (
                     <div className='OpenedCard' style={style} >
                         <h1>{title}</h1>
-                        <button className="CloseButton" onClick={closeCard}>close</button>
+                        <button className='CloseButton' onClick={closeCard}></button>
                     </div>
                 )
             }
