@@ -1,4 +1,5 @@
 .ClosedCard {
+
     color: 'white';
     font-size: small;
     position: relative;
@@ -25,7 +26,13 @@
     transition: width 0.1, height 0.1s;
 
 }
+.ClosedCard:active {
+    cursor: pointer;    
+    filter: brightness(70%);
+    width:28%;
+    transition: width 0.1, height 0.1s;
 
+}
 
 .OpenedCard {
     transition: width 0.1, height 0.1s;
