@@ -22,14 +22,14 @@
 .ClosedCard:hover {
     cursor: pointer;    
     filter: brightness(70%);
-    width:31%;
+    width:32%;
     transition: width 0.1, height 0.1s;
 
 }
 .ClosedCard:active {
     cursor: pointer;    
     filter: brightness(70%);
-    width:28%;
+    width:30%;
     transition: width 0.1, height 0.1s;
 
 }
@@ -73,18 +73,5 @@
 .CloseButton:hover {
     filter:brightness(70%);
     cursor: pointer;
-    margin: 1vw;
-    width:1.5vw;
-    height:1.5vw;
-    border-width:3px;
-    border-style: solid;
-    border-color:cadetblue;
-    border-radius:10px;
-    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
-    background-color: cadetblue;
 
 }
-/* .CloseButton::before {
-    content: "x";
-
-} */

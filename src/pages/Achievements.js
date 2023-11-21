@@ -19,7 +19,6 @@ function Achievements() {
                 <Card page={page} title='didnt die yet'></Card>
                 <Card page={page} title='reindeer has a nice bowtie'></Card>
                 <Card page={page} title='reindeer has a nice bowtie'></Card>
-
                 <Card page={page} title='reindeer has a nice bowtie'></Card>
                 <Card page={page} title='reindeer has a nice bowtie'></Card>
                 <Card page={page} title='reindeer has a nice bowtie'></Card>
