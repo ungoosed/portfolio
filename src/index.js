@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './colours.css'
-import App from './App';
+import Root from './Root';
 import Error from './pages/Error'
 import Projects from './pages/Projects';
 import Achievements from './pages/Achievements';
@@ -14,19 +14,16 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Root />,
     errorElement: <Error />,
     children: [
       {
         path: "projects",
         element: <Projects/>,
-        errorElement: <Error />,
       },
       {
         path: "achievements",
-        element: <Achievements/>,
-        errorElement: <Error />,
-    
+        element: <Achievements/>,    
       },
     ]
   },

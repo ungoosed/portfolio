@@ -1,11 +1,10 @@
 // import logo from './logo.svg';
 import Nav from './components/NavBar';
 import { Outlet } from "react-router-dom";
-
 function Root() {
   return (
     <div className="Root">
-      <Nav></Nav>
+      <Nav />
       <Outlet/>
       <footer className="Footer">
         <p>
