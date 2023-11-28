@@ -47,12 +47,12 @@
     min-height: 73vh;
     z-index: 11;
     color: 'white';
-    font-size: small;
+    font-size: medium;
     position: relative;
     width: 96%;
     border-radius: 10px;
     background: var(--color3);
-    padding-left: 1%;
+    padding: 1vw;
     margin: 1vw;
     justify-content: center;
 
@@ -67,7 +67,6 @@
 
 .CloseButton {
     margin-left: auto;
-    margin: 1vw;
     width: 1.5vw;
     height: 1.5vw;
     padding: 0.5vw;
