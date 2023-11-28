@@ -1,12 +1,13 @@
 import React, { useContext, useState } from 'react';
 import './Card.css'
+function Card({ title, style, pageId, cardId }) {
 
-
-function Card({ title, style, page }) {
-    const parentComponent = require('../pages/' + page);
+    const parentComponent = require('../pages/' + pageId);
+    const OpenedCard = require('../cards/' + pageId + '/' + cardId).default;
 
     const { isDisplayed, setDisplayed } = useContext(parentComponent.displayContext);
     const [isOpen, setOpen] = useState(false);
+
     function openCard() {
         setOpen(true)
         setDisplayed(false)
@@ -15,6 +16,7 @@ function Card({ title, style, page }) {
         setOpen(false)
         setDisplayed(true)
     }
+
     return (
         <React.Fragment>
             {
@@ -32,8 +34,8 @@ function Card({ title, style, page }) {
             }
             {
                 isOpen && (
-                    <div className='OpenedCard' style={style} >
-                        <h1>{title}</h1>
+                    <div className='OpenedCard' >
+                        <OpenedCard></OpenedCard>
                         <button className='CloseButton' onClick={closeCard}></button>
                     </div>
                 )

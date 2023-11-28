@@ -10,35 +10,40 @@
     max-height: 80%;
     height: 7vw;
     border-radius: 10px;
-    background: teal;
+    background: var(--color3);
     padding-left: 1%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 1vw;
     transition: width 0.1s, height 0.1s;
-
+    flex-shrink: 0;
+    white-space: nowrap
 }
 
 .ClosedCard:hover {
-    cursor: pointer;    
+
+    cursor: pointer;
     filter: brightness(70%);
-    width:32%;
+    width: 32%;
     transition: width 0.1, height 0.1s;
 
+
 }
+
 .ClosedCard:active {
-    cursor: pointer;    
+    cursor: pointer;
     filter: brightness(70%);
-    width:30%;
+    width: 30%;
     transition: width 0.1, height 0.1s;
 
 }
 
 .OpenedCard {
-    transition: width 0.1, height 0.1s;
-
-    display:flex;
+    
+    display: flex;
     flex-direction: row;
+    justify-content:center;
+
     min-height: 73vh;
     z-index: 11;
     color: 'white';
@@ -46,11 +51,13 @@
     position: relative;
     width: 96%;
     border-radius: 10px;
-    background: teal;
+    background: var(--color3);
     padding-left: 1%;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 1vw;
+    justify-content: center;
+
+
+
 
 }
 
@@ -59,19 +66,21 @@
 }
 
 .CloseButton {
-  margin: 1vw;
-  width:1.5vw;
-  height:1.5vw;
-  padding: 0.5vw;
-  border-width:3px;
-  border-style: solid;
-  border-color:cadetblue;
-  border-radius:10px;
-  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
-  background-color: cadetblue;
+    margin-left: auto;
+    margin: 1vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    padding: 0.5vw;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--color1);
+    border-radius: 10px;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%, white 56%, transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%, white 56%, transparent 56%, transparent 100%);
+    background-color: var(--color1);
 }
+
 .CloseButton:hover {
-    filter:brightness(70%);
+    filter: brightness(70%);
     cursor: pointer;
 
 }

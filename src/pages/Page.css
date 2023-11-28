@@ -17,8 +17,8 @@ h1 {
 
     width: 50vw;
     position: relative;
-    color: white;
-    background-color:cadetblue;
+    color: var(--text);
+    background-color:var(--light);
     border-radius: 15px;
     text-align: left;
     font-size: medium;

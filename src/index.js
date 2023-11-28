@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './colours.css'
 import App from './App';
 import Error from './pages/Error'
 import Projects from './pages/Projects';
