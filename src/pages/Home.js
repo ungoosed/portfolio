@@ -1,6 +1,6 @@
 import './Page.css';
 
-function Projects() {
+function Home() {
     return (
             <div className="Page">
                 <h1>Asher's Site</h1>
@@ -11,6 +11,5 @@ function Projects() {
 
     );
 }
-export const displayContext = createContext()
 
-export default Projects;
+export default Home;
