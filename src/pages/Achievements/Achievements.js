@@ -1,7 +1,7 @@
 
 
-import './Page.css';
-import Card from "../components/Card";
+import '../Page.css';
+import Card from "../../components/Card";
 import { useState, createContext } from 'react';
 
 function Achievements() {
@@ -17,10 +17,6 @@ function Achievements() {
                 <Card cardId={'Doxicon'} pageId={page} title='duke of ed'></Card>
                 <Card cardId={'Doxicon'} pageId={page} title='cyrstal peeveepee'></Card>
                 <Card cardId={'Doxicon'} pageId={page} title='didnt die yet'></Card>
-                <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
-                <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
-                <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
-                <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
                 <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
                 <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>
                 <Card cardId={'Doxicon'} pageId={page} title='reindeer has a nice bowtie'></Card>

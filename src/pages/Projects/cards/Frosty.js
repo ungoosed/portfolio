@@ -1,4 +1,4 @@
-const frosty = require('../../assets/reindeer-frosty.jpg');
+const frosty = require('../../../assets/reindeer-frosty.jpg');
 
 function Frosty() {
     return (

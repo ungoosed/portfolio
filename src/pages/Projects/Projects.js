@@ -1,11 +1,11 @@
-import './Page.css';
-import Card from "../components/Card";
+import '../Page.css';
+import Card from "../../components/Card";
 import { useState, createContext } from 'react';
 
-const elfin = require('../assets/reindeer-elfin.jpg');
-const frosty = require('../assets/reindeer-frosty.jpg');
-const pumpkin = require('../assets/reindeer-pumpkin.jpg');
-const doxicon = require('../assets/doxicon.png');
+const elfin = require('../../assets/reindeer-elfin.jpg');
+const frosty = require('../../assets/reindeer-frosty.jpg');
+const pumpkin = require('../../assets/reindeer-pumpkin.jpg');
+const doxicon = require('../../assets/doxicon.png');
 
 
 

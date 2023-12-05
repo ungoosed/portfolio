@@ -2,8 +2,8 @@ import React, { useContext, useState } from 'react';
 import './Card.css'
 function Card({ title, style, pageId, cardId }) {
 
-    const parentComponent = require('../pages/' + pageId);
-    const OpenedCard = require('../cards/' + pageId + '/' + cardId).default;
+    const parentComponent = require('../pages/' + pageId + '/' + pageId);
+    const OpenedCard = require('../pages/' + pageId + '/cards/' + cardId).default;
 
     const { isDisplayed, setDisplayed } = useContext(parentComponent.displayContext);
     const [isOpen, setOpen] = useState(false);

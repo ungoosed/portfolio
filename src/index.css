@@ -10,17 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--light);
 }
-.Footer {
-  position:static;
-  border-radius: 10px;
-  width:70vw;
-  margin: auto;
 
-
-  text-align: center;
-  background-color:var(--color2);
-  color:var(--text);
-}
 a,
 a:visited {
   color: var(--text);

@@ -1,0 +1,12 @@
+.Footer {
+    position:static;
+    border-radius: 10px;
+    width:70vw;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 1vh;
+  
+    text-align: center;
+    background-color:var(--color2);
+    color:var(--text);
+  }

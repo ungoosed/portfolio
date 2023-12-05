@@ -1,18 +1,13 @@
 // import logo from './logo.svg';
+import Footer from './components/Footer';
 import Nav from './components/NavBar';
 import { Outlet } from "react-router-dom";
 function Root() {
   return (
     <div className="Root">
       <Nav />
-      <Outlet/>
-      <footer className="Footer">
-        <p>
-          Copyright © 2023 E-man Enterprises
-        </p>
-
-
-      </footer>
+      <Outlet />
+      <Footer />
     </div>
   );
 }
