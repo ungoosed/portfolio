@@ -4,8 +4,8 @@ import './index.css';
 import './colours.css'
 import Root from './Root';
 import Error from './pages/Error'
-import Projects from './pages/Projects/Projects';
-import Achievements from './pages/Achievements/Achievements';
+import Projects from './pages/Projects';
+import Achievements from './pages/Achievements';
 import {
   createBrowserRouter,
   RouterProvider,
