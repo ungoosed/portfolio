@@ -39,10 +39,10 @@
 }
 
 .OpenedCard {
-    
+
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 
     min-height: 73vh;
     z-index: 11;
@@ -52,7 +52,7 @@
     width: 96%;
     border-radius: 10px;
     background: var(--color3);
-    padding: 1vw;
+    padding-left: 1vw;
     margin: 1vw;
     justify-content: center;
 
@@ -69,7 +69,8 @@
     margin-left: auto;
     min-height: 30px;
     min-width: 30px;
-
+    margin-top: 1vw;
+    margin-right: 1vw;
     width: 1.5vw;
     height: 1.5vw;
     padding: 0.5vw;
@@ -85,4 +86,16 @@
     filter: brightness(70%);
     cursor: pointer;
 
+}
+
+#githubIcon {
+    filter: invert(48%) sepia(12%) saturate(2037%) hue-rotate(137deg) brightness(87%) contrast(77%);
+
+
+
+}
+
+#githubIcon:hover {
+    filter: invert(67%) sepia(9%) saturate(1412%) hue-rotate(135deg) brightness(98%) contrast(90%);
+    cursor: pointer;
 }

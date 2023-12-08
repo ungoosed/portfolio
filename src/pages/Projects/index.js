@@ -18,6 +18,9 @@ function Projects() {
                 <Card cardId={'Frosty'} pageId={page} style={{ backgroundImage: `url(${frosty})` }} title={'Frosty Mountain Journey'}></Card>
                 <Card cardId={'Doxicon'} pageId={page} style={{ backgroundImage: `url(${pumpkin})` }} title={'Reindeer Carves A Pumpkin'}></Card>
                 <Card cardId={'Doxicon'} pageId={page} style={{ backgroundImage: `url(${elfin})` }} title='Elfin Lakes Reindeer Adventure'></Card>
+                <Card cardId={'Q4C'} pageId={page} title='Quest for Conception'></Card>
+
+                <Card cardId={'Template'} pageId={page} title='Empty Element'></Card>
 
             </div ></displayContext.Provider>
 

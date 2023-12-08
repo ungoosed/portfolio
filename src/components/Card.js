@@ -37,6 +37,7 @@ function Card({ title, style, pageId, cardId }) {
             {
                 isOpen && (
                     <div className='OpenedCard' >
+
                         <OpenedCard></OpenedCard>
                         <button className='CloseButton' onClick={closeCard}></button>
                     </div>
