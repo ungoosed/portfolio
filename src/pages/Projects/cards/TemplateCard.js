@@ -1,4 +1,4 @@
-function Template() {
+function TemplateCard() {
     return (
         <div className="OpenedCardContent">
             <h2>Template Card</h2>
@@ -9,4 +9,4 @@ function Template() {
 
     );
 }
-export default Template;
+export default TemplateCard;

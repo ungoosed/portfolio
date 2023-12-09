@@ -20,4 +20,29 @@ a:visited {
 a:hover {
   color: var(--color1);
 }
+/* width */
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 10px;
+  background-color: var(--text);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: var(--color1);}
 

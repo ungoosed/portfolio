@@ -11,6 +11,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home';
+import Contacts from './pages/Contacts';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "achievements",
         element: <Achievements />,
+      },
+      {
+        path: "contacts",
+        element: <Contacts />,
       },
     ]
   },

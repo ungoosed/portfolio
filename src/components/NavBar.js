@@ -14,7 +14,7 @@ function NavBar() {
         <Link to="../projects">Projects</Link>
       </button>
       <button className="Dropdown">
-        <Link to="../contact">Contact</Link>
+        <Link to="../contacts">Contacts</Link>
       </button>
       <button className="Dropdown">
         <Link to="../404error">404</Link>

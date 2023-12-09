@@ -1,11 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { useNavigate } from "react-router-dom";
 import './Card.css'
+import './IconLinks'
 function Card({ title, style, pageId, cardId }) {
-    const navigate = useNavigate();
 
     const parentComponent = require('../pages/' + pageId);
-    const OpenedCard = require('../pages/' + pageId + '/cards/' + cardId).default;
+    const OpenedCard = require('../pages/' + pageId + '/cards/' + cardId + 'Card').default;
 
     const { isDisplayed, setDisplayed } = useContext(parentComponent.displayContext);
     const [isOpen, setOpen] = useState(false);
