@@ -5,10 +5,21 @@ function Contacts() {
             <div className="Page">
                 <h1>Contacts</h1>
                 <div id='email-card'>
-
+                    <p>Email: ungoosed@gmail.com</p><br/>
                 </div>
-                <p>This is a cool epic site yippee hooray I amde a home page</p>
-
+                <br></br>
+                <div id='github-card'>
+                    <p>github: @ungoosed</p><br/>
+                </div>
+                <br></br>
+                <div id='discord-card'>
+                    <p>discord: ungoosed</p><br/>
+                </div>
+                <br></br>
+                <div id='itch-card'>
+                    <p>itch: ungoosed</p><br/>
+                </div>
+                <br></br>
 
             </div >
 
