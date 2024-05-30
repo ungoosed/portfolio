@@ -1,0 +1,38 @@
+body {
+    background-color: darkcyan;
+    background-image: url(/public/noise-light.png);
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: 15vw, 15vh;
+}
+a {
+    font-weight:700;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+
+    color: darkcyan;
+}
+#navBar {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: flex;
+    width: max-content;
+    box-shadow: 2px 3px 20px black;
+    background: #fffef075;   
+    border-radius: 12px;
+}
+#navBar a {
+    margin:0.5em;
+}
+.content {
+    width: min-content; 
+    box-shadow: 2px 3px 20px black;
+}
+#app {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
