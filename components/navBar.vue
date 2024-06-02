@@ -1,8 +1,8 @@
 <template>
-    <div id="navBar">
+    <div id="NavBar">
         <a href="/">Home</a>
-        <a href="/career">Career</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
         <a href="/skills">Skills</a>
-        <a href="/service">Service</a>
     </div>
 </template>
