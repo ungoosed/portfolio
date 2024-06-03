@@ -4,6 +4,8 @@ body {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-size: 250px, 250px;
+    padding:0px;
+    margin:0px;
 }
 
 a {
@@ -27,6 +29,9 @@ a:hover {
     box-shadow: 2px 3px 20px black;
     background: #fffef075;
     border-radius: 12px;
+    position: sticky;
+    top: 1rem;
+    z-index: 100;
 
 }
 
@@ -55,4 +60,46 @@ a:hover {
 .content h1 {
     color: palegoldenrod;
     text-shadow: 2px 3px 10px black;
+}
+#homeButton {
+    box-shadow: 2px 3px 20px black;
+    background: #7dc0ff50;
+    position: absolute;
+    width:100%;
+    height: 4.5rem;
+    z-index: 100;
+}
+#homeButton p {
+    margin: 0.5rem;
+}
+#homeButton h1 {
+    margin: 1rem;
+
+}
+.ImageCard {
+    width: 20rem;
+    position: relative;
+    box-shadow: 2px 3px 10px black;
+    border-radius: 12px;
+    margin: 0.5rem;
+    display:flex;
+    flex-grow: 1;
+    
+}
+#section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 20rem;
+}
+.TextCard {
+    position: relative;
+    box-shadow: 2px 3px 10px black;
+    border-radius: 12px;
+    display:flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    max-width: 90%;
+    margin: 0.5rem;
 }
