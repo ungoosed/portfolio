@@ -15,18 +15,20 @@ defineProps({
 </template>
 <style scope>
 .ImageCard {
-    min-height: 10rem;
-    max-height: 30vh;
-
+    width: 30rem;
     position: relative;
-    box-shadow: 2px 3px 20px black;
+    box-shadow: 2px 3px 10px black;
     border-radius: 12px;
     margin: 1rem;
+    display:flex;
+    flex-grow: 1;
+    max-width: 20rem;
 }
 img {
     border-radius: 12px;
-    min-height: 10rem;
-    max-height: 30vh;
+    flex-grow: 1;
+    width: 1rem;
+
 
 }
 h3 {

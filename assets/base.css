@@ -27,6 +27,7 @@ a:hover {
     box-shadow: 2px 3px 20px black;
     background: #fffef075;
     border-radius: 12px;
+
 }
 
 #NavBar a {
@@ -39,4 +40,19 @@ a:hover {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 12px;
+    width: 70rem;
+    max-width: 100vw;
+}
+
+.content h1 {
+    color: palegoldenrod;
+    text-shadow: 2px 3px 10px black;
 }
