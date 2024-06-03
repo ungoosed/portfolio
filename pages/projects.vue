@@ -1,7 +1,7 @@
 <template>
     <div class="content">
-        <Title>Asher's Portfolio - Career & Education</Title>
-      <h1>Welcome to the career reindeer</h1>
+        <Title>Asher's Portfolio - Projects</Title>
+      <h1>Career</h1>
 
     </div>
   </template>
