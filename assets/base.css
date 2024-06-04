@@ -82,7 +82,7 @@ a:hover {
 
 .page h1 {
     color: white;
-    text-shadow: 2px 3px 10px black;
+    /* text-shadow: 2px 3px 10px black; */
 }
 
 #homeButton {
@@ -121,12 +121,13 @@ a:hover {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    width: 20rem;
+    width: 30rem;   
+    
 }
 
 .TextCard {
     position: relative;
-    box-shadow: 2px 3px 10px black;
+    /* box-shadow: 2px 3px 10px black; */
     border-radius: 12px;
     display: flex;
     flex-flow: row wrap;
