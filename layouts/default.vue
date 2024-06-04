@@ -3,6 +3,7 @@
     </NavBar>
     <slot>
     </slot>
+
 </template>
 <style>
 @import url(/assets/base.css);

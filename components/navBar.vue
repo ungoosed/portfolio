@@ -1,12 +1,12 @@
 <template>
     <div id="homeButton">
-        <h1>Asher Chan's Portfolio</h1>
+        <h1 id="title">Asher Chan's Portfolio</h1>
     </div>
     <div id="NavBar">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/Projects">Projects</NuxtLink>
-        <NuxtLink to="/about">Skills</NuxtLink>
+        <NuxtLink to="/projects">Projects</NuxtLink>
+        <NuxtLink to="/skills">Skills</NuxtLink>
     </div>
 
 </template>
@@ -15,7 +15,7 @@ h1 {
   color:white;
 }
 @media only screen and (max-width: 60rem) {
-  h1 {
+  #title {
     display: none;
   }
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="content">
+    <div class="page">
         <Title>Asher's Portfolio - Skills</Title>
         <h1>Talents</h1>
             <TextCard color="#b2f7c5" title="Origami" content="I've been folding origami most of my life. 
