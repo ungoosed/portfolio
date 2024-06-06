@@ -1,5 +1,5 @@
 <template>
   <div id="mini-page">
-<h1>hi phyed</h1>
+<h1>education</h1>
 
   </div></template>

@@ -2,7 +2,7 @@
     <div class="page">
         <Title>Asher's Skills</Title>
         <h1>Talents</h1>
-        <TextCard color="#b2f7c5" title="Origami" content="I've been folding origami most of my life. 
+        <TextCard color="#b2f7c5bb" title="Origami" content="I've been folding origami most of my life. 
             My first major project was at the end of Grade 6 for my passion project, during the COVID19 pandemic. 
             I folded Satoshi Kamiya's Ancient Dragon, which took around 15 hours, including prep time to fold. 
             My latest project was designing my own original origami penguin.">
@@ -19,7 +19,7 @@
             <ImageCard color="white" image="/images/quest-for-conception.png"
                 caption="The Quest for Conception - Created by Asher Chan and Jayden Law" />
         </TextCard>
-        <TextCard color="#ecc7fc" title="Juggling"
+        <TextCard color="#ecc7fcaa" title="Juggling"
             content="My juggling journey began in the spring of 2022, where I first learned the 3 ball cascade. 
             I continued to practice infrequently until the winter of 2022, when I chose it as my skill activity for the Duke of Edinburgh Award. 
             Since then I have learned the Mill's Mess, the Shower, and various other tricks, including a 4 ball fountain.">
