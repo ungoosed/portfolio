@@ -1,5 +1,6 @@
 <template>
   <div id="mini-page">
-<h1>hi phyed</h1>
+    <h1>Physical Health</h1>
 
-  </div></template>
+  </div>
+</template>

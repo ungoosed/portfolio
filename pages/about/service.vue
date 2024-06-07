@@ -1,6 +1,6 @@
 <template>
     <div id="mini-page">
-        <h1>Spiritual Health</h1>
-
+      <h1>Service</h1>
+  
     </div>
-</template>
+  </template>

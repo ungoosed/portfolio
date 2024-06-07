@@ -6,8 +6,8 @@ const route = useRoute()
 
 const tabData = [
     ['#d9c29c', ''],
-    ['#d1ddff', 'career'],
-    ['#f2d1ff', 'education'],
+    ['#d1ddff', 'service'],
+    ['#f2d1ff', 'career'],
     ['#babaff', 'spiritual-health'],
     ['#daffba', 'physical-health'],
 ]
@@ -24,12 +24,13 @@ const colour = computed(() => {
 
 function tabZIndex(tabName) {
     if ('/about/' + (tabData[tabName][1] ? tabData[tabName][1] + '/' : '') == route.path + '/') {
-        return (10)
+        return (2)
 
     } else {
         return (0)
     }
 }
+
 
 </script>
 <template>
@@ -40,24 +41,41 @@ function tabZIndex(tabName) {
 
         <div id="file-window">
             <div id="tab-bar">
-                <NuxtLink :style="{ backgroundColor: tabData[0][0], zIndex: tabZIndex(0) }" id="index-tab" to="/about">
+                <NuxtLink :style="{ backgroundColor: tabData[0][0], zIndex: tabZIndex(0), flexGrow: tabZIndex(0) }"
+                    id="index-tab" to="/about">
                     General</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[1][0], zIndex: tabZIndex(1) }" class="tab"
-                    to="/about/career">
-                    Career</NuxtLink>   
-                <NuxtLink :style="{ backgroundColor: tabData[2][0], zIndex: tabZIndex(2) }" class="tab"
-                    to="/about/education">
-                    Education</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3) }" class="tab"
-                    to="/about/spiritual-health">
+                <NuxtLink :style="{ backgroundColor: tabData[1][0], zIndex: tabZIndex(1), flexGrow: tabZIndex(1) }"
+                    class="tab" to="/about/service">
+                    Service</NuxtLink>
+                <NuxtLink :style="{ backgroundColor: tabData[2][0], zIndex: tabZIndex(2), flexGrow: tabZIndex(2) }"
+                    class="tab" to="/about/career">
+                    Career</NuxtLink>
+                <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3), flexGrow: tabZIndex(3) }"
+                    class="tab" to="/about/spiritual-health">
                     Spiritual Health</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4) }" class="tab"
-                    to="/about/physical-health">
+                <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4), flexGrow: tabZIndex(4) }"
+                    class="tab" to="/about/physical-health">
                     Physical Health</NuxtLink>
             </div>
             <div id="mini-page" v-if="route.path == '/about'">
-                <h1> {{ colour }}</h1>
-                <h2>no</h2>
+                <h1>Quick facts:</h1>
+                <ul>
+                    <li>
+                        Age: 15
+                    </li>
+                    <li>
+                        School: Vancouver Christian School
+                    </li>
+                    <li>
+                        🍪🍰🥧 eater
+                    </li>
+                    <li>
+                        makes websites and other cool stuff
+                    </li>
+                    <li>
+                        Height: Basically 6' 
+                    </li>
+                </ul>
 
             </div>
             <NuxtPage />
@@ -72,5 +90,16 @@ a {
 
 #mini-page {
     background-color: v-bind(colour);
+}
+.ImageCard {
+    width: 30rem;
+}
+#section {
+    width: 30rem;
+    flex-grow: 1;
+}
+.TextCard {
+    width: 50rem;
+    flex-grow: 4;
 }
 </style>

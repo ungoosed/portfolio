@@ -31,3 +31,19 @@
 
     </div>
 </template>
+<style scoped>
+.ImageCard {
+    width: 20rem;
+}
+
+.TextCard {
+    width: 56rem;
+    flex-grow: 1;
+}
+
+#section {
+    flex-grow: 1;
+    width: 30rem;
+
+}
+</style>
