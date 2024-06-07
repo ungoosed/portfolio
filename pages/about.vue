@@ -73,7 +73,7 @@ function tabZIndex(tabName) {
                         makes websites and other cool stuff
                     </li>
                     <li>
-                        Height: Basically 6' 
+                        
                     </li>
                 </ul>
 
@@ -90,16 +90,5 @@ a {
 
 #mini-page {
     background-color: v-bind(colour);
-}
-.ImageCard {
-    width: 30rem;
-}
-#section {
-    width: 30rem;
-    flex-grow: 1;
-}
-.TextCard {
-    width: 50rem;
-    flex-grow: 4;
 }
 </style>
