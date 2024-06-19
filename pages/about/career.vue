@@ -1,7 +1,7 @@
 <template>
   <div id="mini-page">
-    <h1>Career & Education</h1>
-    <TextCard title="Job Shadowing"
+    <h1>Job Shadowing</h1>
+    <TextCard title="Presentation"
       content="I job shadowed various people for 5 days. These people including a geotechnical engineer, two architects, an engineering consultant. ">
       <iframe id="job-shadow"
         src="https://docs.google.com/presentation/d/e/2PACX-1vTwAKDeH42thGbOMzY_IxibmbyegYY5jzn-HZy_RCo65RnR9ayxdsOCldAwc-XYBq9uzGbzumzky6Tl/embed?start=true&loop=true&delayms=5000"

@@ -6,7 +6,7 @@
             My first major project was at the end of Grade 6 for my passion project, during the COVID19 pandemic. 
             I folded Satoshi Kamiya's Ancient Dragon, which took around 15 hours, including prep time to fold. 
             My latest project was designing my own original origami penguin.">
-            <ImageCard color="white" image="/images/penguin-origami.jpg" caption="Origami Penguins - Designed by Me" />
+            <ImageCard color="white" image="/images/penguin-origami.jpg" caption="Origami Penguins - Designed by me" />
 
         </TextCard>
         <TextCard color="#ffffffbb" title="Coding"
@@ -27,7 +27,7 @@
         <h1>Accomplishments</h1>
         <div id="accomplish">
             <ImageCard color="white" image="/images/honours-science.png" caption="Top Science 9/10 Honours Accelerated Student" />
-            <ImageCard color="white" image="/images/dragon-origami.jpg" caption="Origami Ancient Dragon - Designed by Satoshi Kamiya" />
+            <ImageCard color="white" image="/images/dragon-origami.jpg" caption="I folded the Ancient Dragon - Designed by Satoshi Kamiya" />
         </div>
         <div id="accomplish">
         <ImageCard color="white" image="/images/distinction-cayley.png" caption="Distinction - CEMC Cayley Math Contest" />
@@ -42,15 +42,11 @@
 }
 #accomplish {
     display:flex;
+    flex-flow: row wrap;
+    margin: 1rem;
 }
 .TextCard {
     width: 56rem;
     flex-grow: 1;
-}
-
-#section {
-    flex-grow: 1;
-    width: 30rem;
-
 }
 </style>

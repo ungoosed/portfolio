@@ -12,6 +12,8 @@
         <ImageCard caption="Step-Out #1" image="/images/qwanoes-step-out.png" color="white">
       </ImageCard>
     </TextCard>
+    <h1>Other</h1>
+
     <TextCard title="FBC Art Camp" content="I volunteered at the First Baptist Church of Nanaimo for a week in the summer of 2021 and another week in the summer of 2022. This camp involved organizing activities for kids, helping a group complete them, playing with the kids outside, and cleaning and setting up.">
       <ImageCard caption="FBC Art Camp 2021" image="/images/fbc-art-camp.png" color="white">
       </ImageCard>

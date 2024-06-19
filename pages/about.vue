@@ -52,10 +52,10 @@ function tabZIndex(tabName) {
                     Career</NuxtLink>
                 <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3) }"
                     class="tab" to="/about/spiritual-health">
-                    Spiritual Health</NuxtLink>
+                    Faith</NuxtLink>
                 <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4) }"
                     class="tab" to="/about/physical-health">
-                    Physical Health</NuxtLink>
+                    Health</NuxtLink>
             </div>
             <div id="mini-page" v-if="route.path == '/about'">
                 <h1>Quick facts:</h1>
