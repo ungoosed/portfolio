@@ -8,23 +8,29 @@
         frameborder="0" width="500" height="299" allowfullscreen="true" mozallowfullscreen="true"
         webkitallowfullscreen="true" />
     </TextCard>
+    <TextCard title="Resume">
+    </TextCard>
+    <embed id="resume" src="/resume.pdf" type="application/pdf" />
   </div>
 </template>
 <style scoped>
 .ImageCard {
   width: 15rem;
   flex-grow: 1;
-
 }
 
 #job-shadow {
   border-radius: 12px;
   box-shadow: 0px 0px 10px black;
-
-
 }
-
-.TextCard  {
+#resume {
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px black;
+  flex-grow: 1;
+  margin: 1rem;
+  height: 50rem;
+}
+.TextCard {
   flex-grow: 1;
 }
 </style>

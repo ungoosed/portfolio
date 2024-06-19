@@ -6,8 +6,7 @@
             My first major project was at the end of Grade 6 for my passion project, during the COVID19 pandemic. 
             I folded Satoshi Kamiya's Ancient Dragon, which took around 15 hours, including prep time to fold. 
             My latest project was designing my own original origami penguin.">
-            <ImageCard color="white" image="/images/dragon-origami.jpg"
-                caption="I folded the Ancient Dragon - Designed by Satoshi Kamiya" />
+            <ImageCard color="white" image="/images/penguin-origami.jpg" caption="Origami Penguins - Designed by Me" />
 
         </TextCard>
         <TextCard color="#ffffffbb" title="Coding"
@@ -23,11 +22,17 @@
             content="My juggling journey began in the spring of 2022, where I first learned the 3 ball cascade. 
             I continued to practice infrequently until the winter of 2022, when I chose it as my skill activity for the Duke of Edinburgh Award. 
             Since then I have learned the Mill's Mess, the Shower, and various other tricks, including a 4 ball fountain.">
-            <ImageCard color="black" image="/images/juggle.jpg" caption="Juggling 3 balls" />
+            <ImageCard color="white" image="/images/juggle.jpg" caption="Juggling 3 balls" />
         </TextCard>
         <h1>Accomplishments</h1>
-        <ImageCard color="white" image="/images/honours-science.png"
-            caption="Top Science 9/10 Honours Accelerated Student" />
+        <div id="accomplish">
+            <ImageCard color="white" image="/images/honours-science.png" caption="Top Science 9/10 Honours Accelerated Student" />
+            <ImageCard color="white" image="/images/dragon-origami.jpg" caption="Origami Ancient Dragon - Designed by Satoshi Kamiya" />
+        </div>
+        <div id="accomplish">
+        <ImageCard color="white" image="/images/distinction-cayley.png" caption="Distinction - CEMC Cayley Math Contest" />
+            <ImageCard color="white" image="/images/distinction-galois.png" caption="Distinction - CEMC Galois Math Contest" />
+        </div>
 
     </div>
 </template>
@@ -35,7 +40,9 @@
 .ImageCard {
     width: 20rem;
 }
-
+#accomplish {
+    display:flex;
+}
 .TextCard {
     width: 56rem;
     flex-grow: 1;

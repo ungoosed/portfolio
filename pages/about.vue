@@ -41,19 +41,19 @@ function tabZIndex(tabName) {
 
         <div id="file-window">
             <div id="tab-bar">
-                <NuxtLink :style="{ backgroundColor: tabData[0][0], zIndex: tabZIndex(0), flexGrow: tabZIndex(0) }"
+                <NuxtLink :style="{ backgroundColor: tabData[0][0], zIndex: tabZIndex(0) }"
                     id="index-tab" to="/about">
                     General</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[1][0], zIndex: tabZIndex(1), flexGrow: tabZIndex(1) }"
+                <NuxtLink :style="{ backgroundColor: tabData[1][0], zIndex: tabZIndex(1) }"
                     class="tab" to="/about/service">
                     Service</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[2][0], zIndex: tabZIndex(2), flexGrow: tabZIndex(2) }"
+                <NuxtLink :style="{ backgroundColor: tabData[2][0], zIndex: tabZIndex(2) }"
                     class="tab" to="/about/career">
                     Career</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3), flexGrow: tabZIndex(3) }"
+                <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3) }"
                     class="tab" to="/about/spiritual-health">
                     Spiritual Health</NuxtLink>
-                <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4), flexGrow: tabZIndex(4) }"
+                <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4) }"
                     class="tab" to="/about/physical-health">
                     Physical Health</NuxtLink>
             </div>
