@@ -8,7 +8,7 @@ const tabData = [
     ['#d9c29c', ''],
     ['#d1ddff', 'service'],
     ['#f2d1ff', 'career'],
-    ['#babaff', 'spiritual-health'],
+    ['#babaff', 'community'],
     ['#daffba', 'physical-health'],
 ]
 const colour = computed(() => {
@@ -37,7 +37,7 @@ function tabZIndex(tabName) {
     <div class="page">
         <Title>About Asher</Title>
 
-        <h1>My name is Asher.</h1>
+        <h1>About Asher</h1>
 
         <div id="file-window">
             <div id="tab-bar">
@@ -51,14 +51,14 @@ function tabZIndex(tabName) {
                     class="tab" to="/about/career">
                     Career</NuxtLink>
                 <NuxtLink :style="{ backgroundColor: tabData[3][0], zIndex: tabZIndex(3) }"
-                    class="tab" to="/about/spiritual-health">
-                    Faith</NuxtLink>
+                    class="tab" to="/about/community">
+                    Community</NuxtLink>
                 <NuxtLink :style="{ backgroundColor: tabData[4][0], zIndex: tabZIndex(4) }"
                     class="tab" to="/about/physical-health">
                     Health</NuxtLink>
             </div>
             <div id="mini-page" v-if="route.path == '/about'">
-                <h1>Quick facts:</h1>
+                <h1>Some things about me.</h1>
                 <ul>
                     <li>
                         Age: 15
@@ -67,13 +67,13 @@ function tabZIndex(tabName) {
                         School: Vancouver Christian School
                     </li>
                     <li>
-                        🍪🍰🥧 eater
+                        A brother and a sister
                     </li>
                     <li>
-                        makes websites and other cool stuff
+                        Favourite subject is science
                     </li>
                     <li>
-                        
+                        Loves programming
                     </li>
                 </ul>
 

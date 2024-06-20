@@ -8,8 +8,7 @@
         frameborder="0" width="500" height="299" allowfullscreen="true" mozallowfullscreen="true"
         webkitallowfullscreen="true" />
     </TextCard>
-    <TextCard title="Resume">
-    </TextCard>
+<h1>Resume</h1>
     <embed id="resume" src="/resume.pdf" type="application/pdf" />
   </div>
 </template>
