@@ -5,7 +5,6 @@
     <div id="NavBar">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
-        <NuxtLink to="/projects">Projects</NuxtLink>
         <NuxtLink to="/skills">Skills</NuxtLink>
     </div>
 
